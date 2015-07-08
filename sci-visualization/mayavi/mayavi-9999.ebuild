@@ -8,15 +8,14 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1 virtualx git-2
 
 DESCRIPTION="Enthought Tool Suite: Scientific data 3-dimensional visualizer"
-HOMEPAGE="
-	http://code.enthought.com/projects/mayavi/
-	http://pypi.python.org/pypi/mayavi/"
+HOMEPAGE="http://code.enthought.com/projects/mayavi/
+	  http://pypi.python.org/pypi/mayavi/"
 EGIT_REPO_URI="git://github.com/enthought/${PN}.git
-		https://github.com/enthought/${PN}.git"
+	       https://github.com/enthought/${PN}.git"
 
 LICENSE="BSD"
-SLOT="2"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+SLOT="0"
+KEYWORDS=""
 IUSE="doc examples test"
 
 RDEPEND="
